@@ -1,0 +1,58 @@
+11-17 16:00:18.764  9124  9124 D AppButtonsPrefCtl: Sending broadcast to query restart status for com.android.todolist
+11-17 16:00:18.781  9124  9124 D AppButtonsPrefCtl: Got broadcast response: Restart status for com.android.todolist false
+11-17 16:00:22.112  9200  9221 E Perf    : Fail to get file list com.android.todolist
+11-17 16:00:22.113  9200  9221 E Perf    : Fail to get file list com.android.todolist
+11-17 16:01:00.658 28444 28444 I Finsky  : [2] nfc.n(8): Invalidating cached PackageState for com.android.todolist
+11-17 16:01:00.704 28444 28444 I Finsky  : [2] nfc.s(3): Package no longer installed: com.android.todolist
+11-17 16:01:00.759 16699  9244 I Fitness : Clearing all cached OAuth tokens for: com.android.todolist [CONTEXT service_id=17 ]
+11-17 16:01:00.759 16699  9244 I Fitness : Removing all subscriptions for: com.android.todolist [CONTEXT service_id=17 ]
+11-17 16:01:00.820 28444  9334 I Finsky  : [103231] ezp.accept(34): Asset module storage cleared for package com.android.todolist.
+11-17 16:01:00.851 28444 28444 I Finsky  : [2] nfc.s(3): Package no longer installed: com.android.todolist
+11-17 16:01:00.868 28444 28500 I Finsky  : [103060] ert.a(5): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+11-17 16:01:00.904 15021  9254 I BlockstoreStorage: Setting IsLastInstallationDataPerPackage bit to true for package com.android.todolist [CONTEXT service_id=258 ]
+11-17 16:01:00.911 28444 28444 E Finsky  : [2] qno.b(5): STU: Failed to get status for package 'com.android.todolist' (1601)
+11-17 16:01:00.911 28444 28444 E Finsky  : android.content.pm.PackageManager$NameNotFoundException: com.android.todolist
+11-17 16:01:00.996 28444 28500 I Finsky  : [103060] jnz.g(1): Installer: package com.android.todolist was removed. replacing: false
+11-17 16:01:01.010 15021  9361 I Icing   : doRemovePackageData com.android.todolist
+11-17 16:01:01.014 28444 28500 I Finsky  : [103060] jnz.Q(18): Installer: Notifying status update. package=com.android.todolist, status=UNINSTALLED
+11-17 16:01:01.038 28444  9346 I Finsky  : [103239] jul.D(2): IQ: Notifying installation update. package=com.android.todolist, status=UNINSTALLED
+11-17 16:01:01.109 23039  9366 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 cmp=com.android.providers.media/.MediaService (has extras) }
+11-17 16:01:01.192 23039  9366 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 cmp=com.android.providers.media/.MediaService (has extras) }
+11-17 16:01:01.193 28444 28444 I Finsky  : [2] nfc.n(8): Invalidating cached PackageState for com.android.todolist
+11-17 16:01:01.194 28444 28444 I Finsky  : [2] nfc.s(3): Package no longer installed: com.android.todolist
+11-17 16:01:03.992 11402 11402 D GmsGcmUnregisterRcvr: Package changed: Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 cmp=com.mgoogle.android.gms/org.microg.gms.gcm.UnregisterReceiver (has extras) }
+11-17 16:01:03.992 11402 11402 D GmsGcmUnregisterRcvr: Package removed or data cleared: com.android.todolist
+11-17 16:01:19.037 28444 28444 I Finsky  : [2] vie.c(7): Install-time verification requested for package com.android.todolist, id = 205
+11-17 16:01:19.559 28444  9829 I Finsky  : [103249] vkw.c(3): Verify: Verification package=com.android.todolist, id=205 response=0
+11-17 16:01:19.583 28444 28444 I Finsky  : [2] VerifyInstallTask.mv(6): Verification complete: id=205, package_name=com.android.todolist
+11-17 16:01:20.097 15021 15349 I Backup  : [RestoreRequestProcessor] Skipping app with no doc id or kv pairs: com.android.todolist
+11-17 16:01:20.124 28444 28444 I Finsky  : [2] nfc.n(8): Invalidating cached PackageState for com.android.todolist
+11-17 16:01:20.136 28444  9334 I Finsky  : [103231] ezp.accept(34): Asset module storage cleared for package com.android.todolist.
+11-17 16:01:20.140 28444 28497 I Finsky  : [103057] ert.a(5): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+11-17 16:01:20.159 28444 28500 I Finsky  : [103060] ert.a(5): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.android.todolist]
+11-17 16:01:20.211  2700  2700 D ImsResolver: maybeAddedImsService, packageName: com.android.todolist
+11-17 16:01:20.222 16699  9836 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-17 16:01:20.223 16699  9842 I FontLog : Package com.android.todolist has no metadata [CONTEXT service_id=132 ]
+11-17 16:01:20.230 16699  9836 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+11-17 16:07:02.368  1813 13013 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[23,375][293,699]} from uid 10263
+11-17 16:07:02.419  1813  2042 I ActivityManager: Start proc 10569:com.android.todolist/u0a423 for activity {com.android.todolist/com.android.todolist.MainActivity}
+11-17 16:07:02.654 10569 10590 E Perf    : Fail to get file list com.android.todolist
+11-17 16:07:02.654 10569 10590 E Perf    : Fail to get file list com.android.todolist
+11-17 16:08:27.039 13664 13690 W ziparchive: Unable to open '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk': No such file or directory
+11-17 16:08:27.040 13664 13690 E droid.launcher: Failed to open APK '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk' I/O error
+11-17 16:08:27.049 13664 13690 E ResourcesManager: failed to add asset path /data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk
+11-17 16:08:27.050 13664 13690 W PackageManager: Failure retrieving resources for com.android.todolist
+11-17 16:08:27.079 13664 13690 W ziparchive: Unable to open '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk': No such file or directory
+11-17 16:08:27.079 13664 13690 E droid.launcher: Failed to open APK '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk' I/O error
+11-17 16:08:27.079 13664 13690 E ResourcesManager: failed to add asset path /data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk
+11-17 16:08:27.079 13664 13690 W PackageManager: Failure retrieving resources for com.android.todolist
+11-17 16:08:27.080 13664 13690 W ziparchive: Unable to open '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk': No such file or directory
+11-17 16:08:27.080 13664 13690 E droid.launcher: Failed to open APK '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk' I/O error
+11-17 16:08:27.080 13664 13690 E ResourcesManager: failed to add asset path /data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk
+11-17 16:08:27.080 13664 13690 W PackageManager: Failure retrieving resources for com.android.todolist
+11-17 16:08:27.080 13664 13690 W ziparchive: Unable to open '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk': No such file or directory
+11-17 16:08:27.080 13664 13690 E droid.launcher: Failed to open APK '/data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk' I/O error
+11-17 16:08:27.080 13664 13690 E ResourcesManager: failed to add asset path /data/app/com.android.todolist-4sbGXI9OPms8RBbXVKSklQ==/base.apk
+11-17 16:08:27.080 13664 13690 W PackageManager: Failure retrieving resources for com.android.todolist
+11-17 16:08:27.891  1813  2003 I ActivityManager: Killing 10569:com.android.todolist/u0a423 (adj 905): remove task
+11-17 16:08:28.785  1813  6868 I ActivityTaskManager: START u0 {act=android.int
